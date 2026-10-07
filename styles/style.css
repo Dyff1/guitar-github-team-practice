@@ -1,6 +1,9 @@
 :root {
     --main-family: 'monospace'
+    --second-family: 'Arial, Helvetica, sans-serif';
     --main-color: #333;
+
+    --main-text-size: 2rem;
 }
 
 * {
@@ -25,9 +28,15 @@ body {
 }
 
 .header__title {
-    font-size: 2em;
+    font-size: var(--main-text-size);
     margin: 1;
     font-family: var(--main-family);
+}
+
+.header__subtitle {
+    font-size: 1.2em;
+    margin: 0;
+    font-family: var(--second-family);
 }
 
 .main {
