@@ -1,6 +1,6 @@
 :root {
-    --main-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+    --main-family: 'monospace'
+    --main-color: #333;
 }
 
 * {
@@ -26,7 +26,7 @@ body {
 
 .header__title {
     font-size: 2em;
-    margin: 0;
+    margin: 1;
     font-family: var(--main-family);
 }
 
