@@ -23,7 +23,7 @@ body {
 
 .header__title {
     font-size: 2em;
-    margin: 0;
+    margin: 1;
     font-family: var(--main-family);
 }
 
