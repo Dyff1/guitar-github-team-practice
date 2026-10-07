@@ -1,0 +1,73 @@
+:root {
+    --main-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header__title {
+    font-size: 2em;
+    margin: 0;
+    font-family: var(--main-family);
+}
+
+.main {
+    height: 100%;
+    background-color: #76a2bc;
+}
+
+.guitars {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    align-content: center;
+}
+
+.guitars__item {
+    padding: 10px;
+    margin: 20px;
+    background-color: #bdd0db;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.guitars__name {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: var(--main-family);
+}
+
+.guitars__description {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1em;
+    color: #333;
+    font-family: var(--main-family);
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
